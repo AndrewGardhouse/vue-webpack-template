@@ -1,11 +1,11 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
 import App from './App'
+// import store from './store' // Uncomment if you are using Vuex and a store
+
 import './assets/app.scss'
 
-Vue.use(Vuex)
-
 new Vue({
+  // store, // Uncomment if you are using Vuex and a store
   el: '#app',
   render: h => h(App)
 })
